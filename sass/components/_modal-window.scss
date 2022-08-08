@@ -1,0 +1,26 @@
+ .modal {
+     position: absolute;
+     width: 528px;
+     height: 580px;
+     background-color: white;
+     padding: 40px 40px 44px 40px;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+ }
+
+ .modal-close-button {
+     position: absolute;
+     top: 8px;
+     right: 8px;
+     padding: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 30px;
+     height: 30px;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     border-radius: 50%;
+     background-color: transparent;
+ }

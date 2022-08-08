@@ -1,0 +1,125 @@
+footer {
+    background-color: var(--hero-and-footer-color);
+}
+
+.footer-main-container {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: baseline;
+}
+
+.footer-addres-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.social-list-title {
+    font-size: 14px;
+    color: var(--primary-white-color);
+    margin-bottom: 30px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+
+.footer-address-list {
+    font-style: normal;
+    margin-right: 70px;
+}
+
+.addres-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.addres-place {
+    color: var(--primary-white-color);
+    text-decoration: none;
+}
+
+.footer-contacts-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: var(--transform);
+
+    &:focus,
+    &:hover {
+        color: var(--accent-color);
+    }
+}
+
+
+
+
+.filter-button {
+    background-color: #F5F4FA;
+    color: var(--title-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    padding: 5px 23px;
+    margin: 0 auto;
+    transition: var(--transform);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        color: var(--primary-white-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+}
+
+.active {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.subscribe-form-field {
+    display: flex;
+}
+
+.subscribe-input {
+    width: 358px;
+    height: 50px;
+    background-color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    margin-right: 12px;
+    padding-left: 16px;
+    padding-right: 10px;
+    color: white;
+
+    &::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        padding: 0;
+    }
+}
+
+
+.footer-button-wraper {
+    display: block;
+    position: relative;
+}
+
+.subscribe-input-icon {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    fill: white;
+}
+
+.footer-subscribe-form-btn {
+
+    padding-left: 26px;
+    padding-right: 62px;
+}
